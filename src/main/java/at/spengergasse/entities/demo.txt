@@ -1,0 +1,11 @@
+Which is the Capital of France?
+    a) Vienna
+    b) Madrid
+    c) Paris
+    d) Moscow
+
+    Your answer: a
+
+    Correct answer: c) Paris
+
+    What is a prime number?
