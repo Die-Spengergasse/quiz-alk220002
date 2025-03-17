@@ -14,7 +14,7 @@ public class Question {
     private int id;
     @Column(name = "q_text")
     private String text;
-    @OneToMany
+    @OneToMany (fetch = FetchType.EAGER)
     @JoinColumn(name = "fk_q_id")
     private List<Answer> answerList = new ArrayList<>();
     public String getText() {
@@ -25,7 +25,9 @@ public class Question {
         this.text = text;
     }
 
-
+    public List<Answer> getAnswerList() {
+        return answerList;
+    }
 
     @Override
     public String toString() {
