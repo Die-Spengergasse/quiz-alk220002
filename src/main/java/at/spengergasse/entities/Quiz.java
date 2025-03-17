@@ -39,9 +39,7 @@ public class Quiz {
         }
     }
 
-    private void setCorrectAnswersCount() {
-        correctAnswers = questions.size();
-    }
+
 
 
 
