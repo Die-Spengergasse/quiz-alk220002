@@ -31,7 +31,7 @@ public class Answer {
     private int id;
     @Column (name = "a_text")
     private String text;
-
+    
     @Column(name = "a_correct")
     private boolean correct;
 

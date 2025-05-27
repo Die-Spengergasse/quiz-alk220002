@@ -14,6 +14,7 @@ public class Main {
         TypedQuery<Question> query = em.createQuery("SELECT q FROM Question q", Question.class);
         List<Question> questions = query.getResultList();
         em.close();
+        
 
         Quiz quiz = new Quiz(questions);
         quiz.start();

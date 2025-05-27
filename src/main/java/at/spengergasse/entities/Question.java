@@ -6,6 +6,14 @@ import java.util.List;
 @Entity
 @Table(name = "q_questions")
 public class Question {
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
